@@ -1,0 +1,172 @@
+11:56:46 **** Build of configuration Debug for project stm32f0_test ****
+make -j8 all 
+Building file: ../src/main.c
+Building file: ../src/system_stm32f0xx.c
+Invoking: MCU GCC Compiler
+Building file: ../Utilities/stm32f0_discovery.c
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f0xx.d" -MT"src/system_stm32f0xx.o" -o "src/system_stm32f0xx.o" "../src/system_stm32f0xx.c"
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Utilities/stm32f0_discovery.d" -MT"Utilities/stm32f0_discovery.o" -o "Utilities/stm32f0_discovery.o" "../Utilities/stm32f0_discovery.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_adc.c
+Building file: ../StdPeriph_Driver/src/stm32f0xx_cec.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_adc.d" -MT"StdPeriph_Driver/src/stm32f0xx_adc.o" -o "StdPeriph_Driver/src/stm32f0xx_adc.o" "../StdPeriph_Driver/src/stm32f0xx_adc.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_comp.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_cec.d" -MT"StdPeriph_Driver/src/stm32f0xx_cec.o" -o "StdPeriph_Driver/src/stm32f0xx_cec.o" "../StdPeriph_Driver/src/stm32f0xx_cec.c"
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f0xx_crc.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_comp.d" -MT"StdPeriph_Driver/src/stm32f0xx_comp.o" -o "StdPeriph_Driver/src/stm32f0xx_comp.o" "../StdPeriph_Driver/src/stm32f0xx_comp.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_crc.d" -MT"StdPeriph_Driver/src/stm32f0xx_crc.o" -o "StdPeriph_Driver/src/stm32f0xx_crc.o" "../StdPeriph_Driver/src/stm32f0xx_crc.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_dac.c
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_dac.d" -MT"StdPeriph_Driver/src/stm32f0xx_dac.o" -o "StdPeriph_Driver/src/stm32f0xx_dac.o" "../StdPeriph_Driver/src/stm32f0xx_dac.c"
+../src/system_stm32f0xx.c: In function 'SetSysClock':
+../src/system_stm32f0xx.c:273:37: warning: unused variable 'HSEStatus' [-Wunused-variable]
+   __IO uint32_t StartUpCounter = 0, HSEStatus = 0;
+                                     ^~~~~~~~~
+../src/system_stm32f0xx.c:273:17: warning: unused variable 'StartUpCounter' [-Wunused-variable]
+   __IO uint32_t StartUpCounter = 0, HSEStatus = 0;
+                 ^~~~~~~~~~~~~~
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_comp.c
+Finished building: ../src/system_stm32f0xx.c
+Finished building: ../Utilities/stm32f0_discovery.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_adc.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_cec.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_crc.c
+Finished building: ../src/main.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_dac.c
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f0xx_dbgmcu.c
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f0xx_dma.c
+Building file: ../StdPeriph_Driver/src/stm32f0xx_exti.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_dbgmcu.d" -MT"StdPeriph_Driver/src/stm32f0xx_dbgmcu.o" -o "StdPeriph_Driver/src/stm32f0xx_dbgmcu.o" "../StdPeriph_Driver/src/stm32f0xx_dbgmcu.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_dma.d" -MT"StdPeriph_Driver/src/stm32f0xx_dma.o" -o "StdPeriph_Driver/src/stm32f0xx_dma.o" "../StdPeriph_Driver/src/stm32f0xx_dma.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_flash.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_exti.d" -MT"StdPeriph_Driver/src/stm32f0xx_exti.o" -o "StdPeriph_Driver/src/stm32f0xx_exti.o" "../StdPeriph_Driver/src/stm32f0xx_exti.c"
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f0xx_gpio.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_flash.d" -MT"StdPeriph_Driver/src/stm32f0xx_flash.o" -o "StdPeriph_Driver/src/stm32f0xx_flash.o" "../StdPeriph_Driver/src/stm32f0xx_flash.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_gpio.d" -MT"StdPeriph_Driver/src/stm32f0xx_gpio.o" -o "StdPeriph_Driver/src/stm32f0xx_gpio.o" "../StdPeriph_Driver/src/stm32f0xx_gpio.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_i2c.c
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f0xx_iwdg.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_i2c.d" -MT"StdPeriph_Driver/src/stm32f0xx_i2c.o" -o "StdPeriph_Driver/src/stm32f0xx_i2c.o" "../StdPeriph_Driver/src/stm32f0xx_i2c.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+Building file: ../StdPeriph_Driver/src/stm32f0xx_misc.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_iwdg.d" -MT"StdPeriph_Driver/src/stm32f0xx_iwdg.o" -o "StdPeriph_Driver/src/stm32f0xx_iwdg.o" "../StdPeriph_Driver/src/stm32f0xx_iwdg.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_misc.d" -MT"StdPeriph_Driver/src/stm32f0xx_misc.o" -o "StdPeriph_Driver/src/stm32f0xx_misc.o" "../StdPeriph_Driver/src/stm32f0xx_misc.c"
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_dbgmcu.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f0xx_pwr.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_dma.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_exti.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_pwr.d" -MT"StdPeriph_Driver/src/stm32f0xx_pwr.o" -o "StdPeriph_Driver/src/stm32f0xx_pwr.o" "../StdPeriph_Driver/src/stm32f0xx_pwr.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f0xx_rcc.c
+Building file: ../StdPeriph_Driver/src/stm32f0xx_rtc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_rcc.d" -MT"StdPeriph_Driver/src/stm32f0xx_rcc.o" -o "StdPeriph_Driver/src/stm32f0xx_rcc.o" "../StdPeriph_Driver/src/stm32f0xx_rcc.c"
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_rtc.d" -MT"StdPeriph_Driver/src/stm32f0xx_rtc.o" -o "StdPeriph_Driver/src/stm32f0xx_rtc.o" "../StdPeriph_Driver/src/stm32f0xx_rtc.c"
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_flash.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_gpio.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_i2c.c
+ 
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_iwdg.c
+Building file: ../StdPeriph_Driver/src/stm32f0xx_spi.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f0xx_syscfg.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_spi.d" -MT"StdPeriph_Driver/src/stm32f0xx_spi.o" -o "StdPeriph_Driver/src/stm32f0xx_spi.o" "../StdPeriph_Driver/src/stm32f0xx_spi.c"
+Building file: ../StdPeriph_Driver/src/stm32f0xx_tim.c
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_syscfg.d" -MT"StdPeriph_Driver/src/stm32f0xx_syscfg.o" -o "StdPeriph_Driver/src/stm32f0xx_syscfg.o" "../StdPeriph_Driver/src/stm32f0xx_syscfg.c"
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+../StdPeriph_Driver/src/stm32f0xx_rtc.c: In function 'RTC_DeInit':
+../StdPeriph_Driver/src/stm32f0xx_rtc.c:311:17: warning: unused variable 'wutcounter' [-Wunused-variable]
+   __IO uint32_t wutcounter = 0x00;
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_tim.d" -MT"StdPeriph_Driver/src/stm32f0xx_tim.o" -o "StdPeriph_Driver/src/stm32f0xx_tim.o" "../StdPeriph_Driver/src/stm32f0xx_tim.c"
+                 ^~~~~~~~~~
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_misc.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_pwr.c
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f0xx_usart.c
+Building file: ../StdPeriph_Driver/src/stm32f0xx_wwdg.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_usart.d" -MT"StdPeriph_Driver/src/stm32f0xx_usart.o" -o "StdPeriph_Driver/src/stm32f0xx_usart.o" "../StdPeriph_Driver/src/stm32f0xx_usart.c"
+Z:\workspace\ECE362\stm32f0_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/stm32f0_test/Utilities" -I"Z:/workspace/ECE362/stm32f0_test/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/stm32f0_test/inc" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/device" -I"Z:/workspace/ECE362/stm32f0_test/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f0xx_wwdg.d" -MT"StdPeriph_Driver/src/stm32f0xx_wwdg.o" -o "StdPeriph_Driver/src/stm32f0xx_wwdg.o" "../StdPeriph_Driver/src/stm32f0xx_wwdg.c"
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_rcc.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_rtc.c
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_syscfg.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_spi.c
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_wwdg.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_usart.c
+Finished building: ../StdPeriph_Driver/src/stm32f0xx_tim.c
+ 
+ 
+Building target: stm32f0_test.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -T"Z:/workspace/ECE362/stm32f0_test/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32f0_test.elf" @"objects.list"   -lm
+Finished building target: stm32f0_test.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32f0_test.elf" "stm32f0_test.bin"
+arm-none-eabi-size "stm32f0_test.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1372	   1088	    196	   2656	    a60	stm32f0_test.elf
+ 
+
+11:57:05 Build Finished (took 18s.419ms)
+
