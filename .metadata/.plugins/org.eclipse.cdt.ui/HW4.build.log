@@ -1,0 +1,6 @@
+21:18:48 **** Incremental Build of configuration Debug for project HW4 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+
+21:18:50 Build Finished (took 1s.808ms)
+

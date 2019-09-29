@@ -179,7 +179,7 @@ end1:
 .global main
 main:
     // Uncomment the line below to test "enable_ports"
-   // bl  test_enable_ports
+    bl  test_enable_ports
 
     // Uncomment the line below to test "port_c_output"
 //     bl  test_port_c_output
@@ -194,7 +194,7 @@ main:
     //bl  test_wiring
 
     // Uncomment to run the LED sequencing program
-    bl run_seq
+    //bl run_seq
 
 inf_loop:
     b inf_loop

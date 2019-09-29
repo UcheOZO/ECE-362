@@ -25,7 +25,7 @@ src/%.o: ../src/%.s
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Assembler'
 	@echo $(PWD)
-	arm-none-eabi-as -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -I"/home/shay/a/uozor/workspace/ECE362/2/Utilities" -I"/home/shay/a/uozor/workspace/ECE362/2/StdPeriph_Driver/inc" -I"/home/shay/a/uozor/workspace/ECE362/2/inc" -I"/home/shay/a/uozor/workspace/ECE362/2/CMSIS/device" -I"/home/shay/a/uozor/workspace/ECE362/2/CMSIS/core" -g -o "$@" "$<"
+	arm-none-eabi-as -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -I"Z:/workspace/ECE362/LAB2/Utilities" -I"Z:/workspace/ECE362/LAB2/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/LAB2/inc" -I"Z:/workspace/ECE362/LAB2/CMSIS/device" -I"Z:/workspace/ECE362/LAB2/CMSIS/core" -g -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
@@ -33,7 +33,7 @@ src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo $(PWD)
-	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"/home/shay/a/uozor/workspace/ECE362/2/Utilities" -I"/home/shay/a/uozor/workspace/ECE362/2/StdPeriph_Driver/inc" -I"/home/shay/a/uozor/workspace/ECE362/2/inc" -I"/home/shay/a/uozor/workspace/ECE362/2/CMSIS/device" -I"/home/shay/a/uozor/workspace/ECE362/2/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F051R8Tx -DSTM32F0DISCOVERY -DDEBUG -DSTM32F051 -DUSE_STDPERIPH_DRIVER -I"Z:/workspace/ECE362/LAB2/Utilities" -I"Z:/workspace/ECE362/LAB2/StdPeriph_Driver/inc" -I"Z:/workspace/ECE362/LAB2/inc" -I"Z:/workspace/ECE362/LAB2/CMSIS/device" -I"Z:/workspace/ECE362/LAB2/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

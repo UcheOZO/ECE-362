@@ -29,13 +29,13 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: 2.elf
+all: LAB2.elf
 
 # Tool invocations
-2.elf: $(OBJS) $(USER_OBJS) /home/shay/a/uozor/workspace/ECE362/2/LinkerScript.ld
+LAB2.elf: $(OBJS) $(USER_OBJS) Z:\workspace\ECE362\LAB2/LinkerScript.ld
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -T"/home/shay/a/uozor/workspace/ECE362/2/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -T"Z:/workspace/ECE362/LAB2/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "LAB2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -47,8 +47,8 @@ clean:
 
 post-build:
 	-@echo 'Generating binary and Printing size information:'
-	arm-none-eabi-objcopy -O binary "2.elf" "2.bin"
-	arm-none-eabi-size "2.elf"
+	arm-none-eabi-objcopy -O binary "LAB2.elf" "LAB2.bin"
+	arm-none-eabi-size "LAB2.elf"
 	-@echo ' '
 
 .PHONY: all clean dependents
